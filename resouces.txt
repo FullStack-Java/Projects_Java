@@ -1,7 +1,13 @@
 Java Beginner Projects
+
+Project 1
 https://www.youtube.com/watch?v=WsUuqlTgBK0
-https://www.youtube.com/watch?v=m5VMSZIJlK0
+
+Project 2 - Building a School Management System
 https://www.youtube.com/watch?v=e0X00EoFQbE
+
+
+https://www.youtube.com/watch?v=m5VMSZIJlK0
 https://www.youtube.com/watch?v=49eeLxc6xE4
 https://www.youtube.com/watch?v=OaBR29122qo
 https://www.youtube.com/watch?v=qH9mWpYMtYU
