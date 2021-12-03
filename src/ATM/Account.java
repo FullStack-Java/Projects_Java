@@ -5,6 +5,11 @@ import java.util.Scanner;
 
 public class Account {
 
+    private int customerNumber = 0;
+    private int pinNumber;
+    private double checkingBalance = 0 ;
+    private double savingBalance = 0;
+
     Scanner input = new Scanner(System.in);
     DecimalFormat moneyFormat = new DecimalFormat("'$' ###,##0.00");
 
@@ -31,13 +36,13 @@ public class Account {
 
 //    Get Checking Account Balance
 
-    public int getCheckingBalance(){
+    public double getCheckingBalance(){
         return checkingBalance;
     }
 
     //    Get Saving Account Balance
 
-    public int getSavingBalance(){
+    public double getSavingBalance(){
         return savingBalance;
     }
 
@@ -69,21 +74,63 @@ public class Account {
         return savingBalance;
     }
 
-//  Customer CHecking Account Withdraw Amount
+//  Customer Checking Account Withdraw Amount
 
     public void getCheckingWithdrawInput(){
         System.out.println("Checking Account Balance: " + moneyFormat.format(checkingBalance));
         System.out.println("Enter the amount you would like to withdraw from Checking Account: ");
         double amount = input.nextDouble();
 
-        if((checkingBalance - input) > 0){
+        if((checkingBalance - amount) > 0){
             calcCheckingWithdrawal(amount);
             System.out.println("New Checking Account balance: " + moneyFormat.format(checkingBalance));
         }else{
-            System.out.println("Balance Can't be nagative");
+            System.out.println("Balance Can't be negative");
+        }
+    }
+//  Customer Saving Account Withdraw Amount
+
+    public void getSavingWithdrawInput(){
+        System.out.println("Saving Account Balance: " + moneyFormat.format(savingBalance));
+        System.out.println("Enter the amount you would like to withdraw from Saving Account: ");
+        double amount = input.nextDouble();
+
+        if((savingBalance - amount) > 0){
+            calcSavingWithdrawal(amount);
+            System.out.println("New Saving Account balance: " + moneyFormat.format(savingBalance));
+        }else{
+            System.out.println("Balance Can't be negative");
         }
     }
 
+//    Customer Checking Account Deposit
 
+    public void getCheckingDepositInput(){
+        System.out.println("Checking Account Balance: " + moneyFormat.format(checkingBalance));
+        System.out.println("Enter the amount you would like to deposit to Checking Account: ");
+        double amount = input.nextDouble();
+
+        if((checkingBalance + amount) > 0){
+            calcCheckingDeposit(amount);
+            System.out.println("New Checking Account balance: " + moneyFormat.format(checkingBalance));
+        }else{
+            System.out.println("Balance Can't be negative");
+        }
+    }
+
+//    Customer Saving Account Deposit
+
+    public void getSavingDepositInput(){
+        System.out.println("Saving Account Balance: " + moneyFormat.format(savingBalance));
+        System.out.println("Enter the amount you would like deposit to Saving Account: ");
+        double amount = input.nextDouble();
+
+        if((savingBalance + amount) > 0){
+            calcSavingDeposit(amount);
+            System.out.println("New Saving Account balance: " + moneyFormat.format(savingBalance));
+        }else{
+            System.out.println("Balance Can't be negative");
+        }
+    }
 
 }
