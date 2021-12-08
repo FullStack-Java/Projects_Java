@@ -1,0 +1,23 @@
+School Money Management System
+
+Keep Track of Students Total Fees
+Fees Already Paid
+Teachers Salary
+
+--School consist of
+        Teachers
+        Students
+        Total Money Earned
+        Total Money Spent
+
+--Teacher
+        id
+        name
+        salary
+
+--Student
+        id
+        name
+        grade
+        fees paid
+        fees total
