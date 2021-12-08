@@ -9,6 +9,14 @@ https://www.youtube.com/watch?v=e0X00EoFQbE
 Project 3 - Making a simple Game | Core Java and OOPs | Java OOPs Project
 https://www.youtube.com/watch?v=m5VMSZIJlK0
 
+----
+I want to do the following:
+https://www.youtube.com/watch?v=GOGt7PACl10
+
+So maybe consider changing the order of the projects
+--------------------
+
+
 Project 4 - Music Player App | Core Java and OOPs | Java OOPs Project (Intermediate)
 https://www.youtube.com/watch?v=49eeLxc6xE4
 
