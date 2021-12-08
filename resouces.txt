@@ -6,11 +6,22 @@ https://www.youtube.com/watch?v=WsUuqlTgBK0
 Project 2 - Building a School Management System
 https://www.youtube.com/watch?v=e0X00EoFQbE
 
-
+Project 3 - Making a simple Game | Core Java and OOPs | Java OOPs Project
 https://www.youtube.com/watch?v=m5VMSZIJlK0
+
+Project 4 - Music Player App | Core Java and OOPs | Java OOPs Project (Intermediate)
 https://www.youtube.com/watch?v=49eeLxc6xE4
+
+Project 5 - Repetition - ATM Machine.java
+https://www.youtube.com/watch?v=GWuGu7B9cO0 and https://www.youtube.com/watch?v=GWuGu7B9cO0&list=PLi9OD_D7PDfiqhQPVNcvAo0FT0ZZQozWK
+
+Java Realtime Projects | Calculator And ATM App | Java Tutorial For Beginners | Simplilearn
 https://www.youtube.com/watch?v=OaBR29122qo
+
+Build a Java Desktop Application - Full Course (Sudoku)
 https://www.youtube.com/watch?v=qH9mWpYMtYU
+
+Java snake game 🐍 - Bro Code
 https://www.youtube.com/watch?v=bI6e6qjJ8JQ
 
 Java Courses
